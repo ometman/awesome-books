@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <!-- header section with logo/name, menu and date -->
+  <header>
+    <div class="header">
+      <logo class="logo"><img src="ab-logo-bg.png" alt="Awesome Books logo"></logo>
+      <nav class="header-nav">
+        <ul class="menu">
+          <li class="menu-item" value="list"><a href="#">List</a><span>|</span></li>
+          <li class="menu-item" value="add"><a href="#">Add new </a><span>|</span></li>
+          <li class="menu-item" value="info"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="current-date"></div>
+  </header>
+
+  <section class="collection">
+    <h2>All Awesome Books</h2>
+    <div id="show-bks"></div>
+  </section>
+
+  <section class="add-books-section">
+    <h2>Add a new book:</h2>
+    <form id="new-bk">
+      <input id="bk-title" type="text" name="title" placeholder="Title" required />
+      <input id="bk-author" type="text" name="author" placeholder="Author" required />
+      <button id="add-bk" class="add-book-btn order2" type="submit">ADD</button>
+    </form>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact information</h2>
+    <p >
+      Do you have any question, or just want to say "Hello"? <br />
+      You have reachout to us:
+    </p>
+    <ul>
+      <li class="email">Our email: mail@mail.com</li>
+      <li class="phone">Our phone number: +233 55 3665 190 or</li>
+      <li class="address">456 Coding Street, City, Country</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-info order0">Copyright</p>
+  </footer>
+
+  <script src="./book.js"></script>
+</body>
+
+</html>
