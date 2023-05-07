@@ -1,11 +1,11 @@
-# Awesome Books: Ometman & Porag [Pair Programming]
+# Awesome Books: Ometman
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./porag-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./ometman-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>Awesome Books: Ometman & Porag [Pair Programming]</b></h3>
-  <h5>Raw HTML CSS &amp; JS CURD Application that makes use of managing data dynamically using Javascript. Along with dynamic modification of the DOM on different Events.<h5>
+  <h3><b>Awesome Books: Ometman</b></h3>
+  <h5>Raw HTML CSS &amp; JS CURD Application manages data dynamically using Javascript modules and ES6 syntax. It therefore modifies the DOM dynamically on different events.<h5>
 </div>
 
 
@@ -31,10 +31,10 @@
 - [📝 License](#license)
 
 
-# 📖 Awesome Books: Ometman & Porag <a name="about-project"></a>
+# 📖 Awesome Books: Ometman <a name="about-project"></a>
 
-This project **Awesome Books** is a project demonstrates the use of HTML & CSS and managing data dynamically using Javascript. 
-Along with dynamic modification of the DOM with Events including all the coding best practices. 
+This project **Awesome Books** demonstrates the application of Javascript structured in modules, with ES6 syntax, HTML and CSS, to manipulate DOM elements and manage data dynamically on specific events. 
+It incorpotates all the coding best practices. 
 
 >The project includes designs for two different screen sizes.
 
@@ -44,20 +44,7 @@ Along with dynamic modification of the DOM with Events including all the coding 
 >Links :
  - The navigation links maniputes the DOM dynamically to show different sections of the site.
  - The logo in the header links to the home page.
-
-<!-- >Mobile menu:
-
- - When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page provides proper navigation to different parts of the same or different page.
- - The mobile menu incudes a close (X) button that closes the menu.
-
->Dynamic page:
-
- - The section "Featured mentors" is created dynamically in JavaScript.
- - A JavaScript variable with the data about the mentors is used to create the HTML for this section dynamically on the page loads. -->
-
-
-
-
+ - There is no hamburger button was used for mobile menu.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,13 +56,14 @@ Along with dynamic modification of the DOM with Events including all the coding 
     <li>HTML</li>
     <li>CSS</li>
     <li>JS</li>
+    <li>Wireframe design</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>Optionally can be Deployed Using GitHub Pages</li>
+    <li>Optionally: Deployable Using GitHub Pages</li>
   </ul>
 </details>
 
@@ -88,7 +76,10 @@ Along with dynamic modification of the DOM with Events including all the coding 
 
 ### Key Features <a name="key-features"></a>
 
-- **Conversion of a Design (e.g. Figma) to HTML/CSS**
+- **Conversion of a wireframe design (e.g. figma, sketch, adobe XD ) to HTML/CSS**
+- **List or Show Books**
+- **Add or Remove a Book**
+- **Display contact information**
 - **Responsive Web Design: Desktop & Mobile**
 - **Interactivity Using JS**
 
@@ -97,9 +88,7 @@ Along with dynamic modification of the DOM with Events including all the coding 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Please follow the link for a live demo.
-
-- [Awesome Books]()
+> Please a live demo coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,12 +109,11 @@ In order to run this project you need:
 Clone this repository to your desired folder:
  - Using Git Bash or any integrated terminal of you choice.
  - Open with code editor (e.g. VS Code).
- - Open the index.html file using any local server (e.g. live server extension in VS Code)
 
 ### Usage
 
 To run the project, execute the following command:
-- Open the index.html file on a local server on your browser. 
+- Open the index.html file using any local server (e.g. live server extension in VS Code)
 
 ### Run tests
 
@@ -176,7 +164,9 @@ on the root of your directory of your project.
 
 ### Deployment
 You can deploy this project using:
-- GitHub Pages for the main branch. A deployed version can be found here:
+- GitHub Pages from a specific branch (e.g. main). 
+- You can also used any cloud service like gcloud or Azure.
+- A deployed version can be found here:
 https://...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -185,24 +175,18 @@ https://...
 
 > Developed by: 
 
-### Author1
+### Author
 - GitHub: [@ometman](https://github.com/ometman)
 - Twitter: [@twitterhandle](https://twitter.com/ometman)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ometman/)
-
-
-### Author2
-- GitHub: [@porag-m06](https://github.com/porag-m06)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-porag-nsu-cse/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **JS Interactions**
+- **JS Interactions and message on adding or deleting a book**
 - **Add Multiple New Pages**
-- **Improve Aesthetics & Design**
+- **Improved Aesthetics & Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +209,8 @@ As a tech enthusiast, your support is always appreciated. If you like this proje
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](https://www.microverse.org/) for this project & project guidelines.
+I would like to thank especially [Microverse](https://www.microverse.org/) for inspiring this project & project guidelines.
+Thanks also to Porag, a fellow student at Microverse and my once coding partner on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -238,7 +223,6 @@ I would like to thank [Microverse](https://www.microverse.org/) for this project
   - Yes, you can share this project for any educational purposes. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## 📝 License <a name="license"></a>
