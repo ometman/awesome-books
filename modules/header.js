@@ -1,6 +1,6 @@
 /* eslint-disable no-use-before-define */
 export { body, mainHeader };
-
+/* eslint-disable no-use-before-define */
 // create header element
 const body = document.querySelector('body');
 const mainHeader = document.createElement('header');
@@ -20,4 +20,3 @@ mainHeader.innerHTML = `
 </div>;`;
 
 body.appendChild(mainHeader);
-

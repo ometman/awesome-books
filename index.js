@@ -9,6 +9,6 @@ window.onload = () => {
   mainHeader.style.display = 'block';
   pageSwitch();
   mainFooter.style.display = 'block';
-  currentDate()
+  currentDate();
   addNewBook();
 };

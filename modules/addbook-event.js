@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 // event to add book
 import { BooksClass } from './bookClass.js';
 
