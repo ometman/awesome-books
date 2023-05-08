@@ -207,7 +207,7 @@ footer {
   width: auto;
   align-items: start;
   border: 4px solid #000;
-  margin-bottom: 1vw;
+  margin-bottom: 2vh !important;
 }
 
 .footer-info {
