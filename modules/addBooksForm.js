@@ -1,4 +1,5 @@
 // page for adding books via form
+export { addBookForm }
 import { body } from './header.js';
 
 const addBookForm = document.createElement('section');
@@ -12,5 +13,3 @@ addBookForm.innerHTML =
       <button id="add-bk" class="add-book-btn order2" type="submit">ADD</button>
     </form>`
 body.appendChild(addBookForm);
-
-export { addBookForm }

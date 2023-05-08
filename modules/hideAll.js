@@ -7,6 +7,3 @@ export default function hideAll() {
     addBookForm.style.display = 'none';
     contact.style.display = 'none';
   }
-
-  
-
