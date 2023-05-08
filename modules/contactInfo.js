@@ -2,7 +2,7 @@ import { body } from './header.js'
 
 const contact = document.createElement('section');
 contact.className = 'contact-section';
-// contact.style.display = 'none';
+contact.style.display = 'none';
 contact.innerHTML =
   `<h2>Contact information</h2>
   <p >

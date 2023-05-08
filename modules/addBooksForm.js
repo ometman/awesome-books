@@ -3,7 +3,7 @@ import { body } from './header.js';
 
 const addBookForm = document.createElement('section');
 addBookForm.className = 'add-books-section';
-// addBookForm.style.display = 'none'
+addBookForm.style.display = 'none'
 addBookForm.innerHTML =
   `<h2>Add a new book:</h2>
     <form id="new-bk">
