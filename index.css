@@ -17,12 +17,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
 .header {
   border: 4px solid black;
   display: flex;
@@ -31,29 +34,35 @@ a {
   padding: 0 15px;
   margin-top: 5px;
 }
+
 .logo img {
   width: 230px;
 }
+
 ul.menu {
   color: #000;
   display: flex;
 }
+
 ul.menu li a {
   font-size: 1.2rem;
   color: rgb(0, 135, 177);
 }
+
 ul.menu li a:hover {
   color: #000;
   border: 1px solid orangered;
   border-radius: 6px;
   padding: 0.5rem;
 }
+
 span {
   padding: 0 13px;
 }
 
 .current-date {
   text-align: right;
+
   /* color: rgb(247,131,50); */
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -66,6 +75,7 @@ h2 {
   font-weight: 500;
   text-align: center;
 }
+
 #show-bks {
   display: flex;
   flex-direction: column;
@@ -75,6 +85,7 @@ h2 {
   border: 4px solid #000;
   background: #fff;
 }
+
 .added-bks {
   width: 100%;
   margin: 1px 0;
@@ -83,6 +94,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+
 .new-book-title,
 .new-book-author {
   margin: 0 0 0 1rem;
@@ -90,12 +102,14 @@ h2 {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
 .add-books-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 /* form styling */
 #new-bk {
   display: flex;
@@ -106,6 +120,7 @@ h2 {
   text-align: center;
   padding: 75px 75px;
 }
+
 #bk-title,
 #bk-author {
   width: 98%;
@@ -119,6 +134,7 @@ h2 {
   line-height: 1.5rem;
   border-radius: 6px;
 }
+
 /*  btns styling */
 #del-bk {
   position: relative;
@@ -135,6 +151,7 @@ h2 {
   border: 0.5px solid rgb(255, 0, 0);
   border-radius: 6px;
 }
+
 .add-book-btn {
   position: relative;
   align-self: flex-end;
@@ -152,16 +169,19 @@ h2 {
   border-radius: 8px;
   box-shadow: 1px 3px 4px rgb(236, 226, 131);
 }
+
 #del-bk:active {
   background: rgb(213, 4, 4);
   color: #fff;
   border: 1px solid #fff;
 }
+
 .add-book-btn:active {
   background: rgb(1, 59, 1);
   border: 1px solid #fff;
   color: #fff;
 }
+
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -170,25 +190,31 @@ h2 {
   padding: 0 10vw;
   gap: 1rem;
 }
+
 .contact-section p {
   padding-top: 5vw;
 }
+
 .contact-section p,
 ul {
   font-size: 2rem;
 }
+
 .contact-section ul {
   list-style: outside;
 }
+
 section {
   min-height: 77vh;
 }
+
 footer {
   width: auto;
   align-items: start;
   border: 4px solid #000;
   margin-bottom: 1vh !important;
 }
+
 .footer-info {
   margin: 0 2%;
   padding: 2% 0.5%;
@@ -206,7 +232,7 @@ footer {
 }
 
 .msg-modal-msg {
-  color:rgb(213, 4, 4);
+  color: rgb(213, 4, 4);
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;

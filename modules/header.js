@@ -20,4 +20,3 @@ mainHeader.innerHTML = `
 body.appendChild(mainHeader);
 
 export { body, mainHeader };
-

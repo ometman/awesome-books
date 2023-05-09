@@ -21,5 +21,5 @@ export const addNewBook = () => {
     const showBks = document.querySelector('#show-bks');
     showBks.textContent = 'No books currrently added';
   } // get store books or show message if empty
-}
+};
 export { addNewBook as default };

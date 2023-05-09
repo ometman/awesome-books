@@ -14,4 +14,3 @@ export const currentDate = () => {
 };
 
 export { currentDate as default };
-

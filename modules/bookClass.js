@@ -48,4 +48,4 @@ export class BooksClass {
   } // access and show local storage data
 }
 
-export { BooksClass as default};
+export { BooksClass as default };

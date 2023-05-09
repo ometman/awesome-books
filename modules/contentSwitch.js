@@ -3,7 +3,7 @@ import { addBookForm } from './addBookForm.js';
 import { collection } from './collectionsDisplay.js';
 import { contact } from './contactInfo.js';
 
- export default function pageSwitch() {
+export default function pageSwitch() {
   collection.style.display = 'block';
 
   const menuItems = document.querySelectorAll('.menu-item');
