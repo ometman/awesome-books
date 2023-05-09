@@ -1,10 +1,8 @@
 /* eslint-disable no-use-before-define */
-// page for adding books via form
+// form page
 import { body } from './header.js';
 
-export default addBookForm;
-
-const addBookForm = document.createElement('section');
+export const addBookForm = document.createElement('section');
 addBookForm.className = 'add-books-section';
 addBookForm.style.display = 'none'
 addBookForm.innerHTML =
@@ -15,3 +13,5 @@ addBookForm.innerHTML =
       <button id="add-bk" class="add-book-btn order2" type="submit">ADD</button>
     </form>`
 body.appendChild(addBookForm);
+
+export { addBookForm as default };

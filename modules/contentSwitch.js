@@ -1,11 +1,9 @@
+/* eslint-disable no-use-before-define */
 import { addBookForm } from './addBookForm.js';
 import { collection } from './collectionsDisplay.js';
-/* eslint-disable no-use-before-define */
 import { contact } from './contactInfo.js';
 
-export default pageSwitch;
-
- const pageSwitch = () => {
+ export default function pageSwitch() {
   collection.style.display = 'block';
 
   const menuItems = document.querySelectorAll('.menu-item');

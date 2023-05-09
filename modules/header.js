@@ -1,5 +1,4 @@
 /* eslint-disable no-use-before-define */
-export { body, mainHeader };
 
 // create header element
 const body = document.querySelector('body');
@@ -19,4 +18,6 @@ mainHeader.innerHTML = `
     </nav>
 </div>`;
 body.appendChild(mainHeader);
+
+export { body, mainHeader };
 

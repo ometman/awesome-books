@@ -195,3 +195,19 @@ footer {
   font-weight: 400;
   color: #000;
 }
+
+.msg-modal-container {
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  display: none;
+}
+
+.msg-modal-msg {
+  color:rgb(213, 4, 4);
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}

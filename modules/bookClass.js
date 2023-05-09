@@ -1,22 +1,20 @@
 /* eslint-disable no-use-before-define */
-// eslint-disable-next-line import/prefer-default-export
-export default BooksClass;
 
-class BooksClass {
+export class BooksClass {
   constructor(bookTitle, bookAuthor) {
     this.title = bookTitle;
     this.author = bookAuthor;
     this.bookCollection = JSON.parse(localStorage.getItem('Books')) || [];
   }
 
-  AddBook() {
+  addBook() {
     const { title } = this;
     const { author } = this;
     this.bookCollection.push({ title, author });
     localStorage.setItem('Books', JSON.stringify(this.bookCollection));
   }
 
-  ShowAllBooks() {
+  showAllBooks() {
     const showBks = document.querySelector('#show-bks');
     showBks.innerHTML = '';
     for (let i = 0; i < this.bookCollection.length; i += 1) {
@@ -40,7 +38,7 @@ class BooksClass {
       btn.addEventListener('click', () => {
         this.bookCollection.splice(btn.getAttribute('id'), 1);
         localStorage.setItem('Books', JSON.stringify(this.bookCollection));
-        this.ShowAllBooks();
+        this.showAllBooks();
       });
     });
   }// removeBook
@@ -50,5 +48,4 @@ class BooksClass {
   } // access and show local storage data
 }
 
-
-
+export { BooksClass as default};

@@ -1,9 +1,7 @@
 /* eslint-disable no-use-before-define */
 import { body } from './header.js'
 
-export { contact };
-
-const contact = document.createElement('section');
+export const contact = document.createElement('section');
 contact.className = 'contact-section';
 contact.style.display = 'none';
 contact.innerHTML =
@@ -18,3 +16,5 @@ contact.innerHTML =
     <li class="address">456 Coding Street, City, Country</li>
   </ul>`
 body.appendChild(contact);
+
+export { contact as default };
