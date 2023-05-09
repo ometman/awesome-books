@@ -54,10 +54,11 @@ span {
 
 .current-date {
   text-align: right;
-  color: gray;
-  color: rgb(247,131,50);
+  /* color: rgb(247,131,50); */
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
+  margin-top: 5px;
 }
 
 h2 {
